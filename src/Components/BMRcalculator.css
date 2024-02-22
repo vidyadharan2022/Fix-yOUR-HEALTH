@@ -1,0 +1,114 @@
+.bmrbox{
+    position: relative;
+    top: 10em;
+    left: 10%;
+    border: 2px solid black;
+    background: rgb(0, 0, 0);
+    color: white;
+    height: 145em;
+    width: 78em;
+    border-radius: 60px;
+    margin-bottom: 12em;
+}
+.bmrheadname{
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    left: 8.6em;
+}
+.bmrline{
+    position: relative;
+    left:6%;
+    top: 30px;
+    border-color: rgb(255, 255, 255);
+    width: 68em;
+    align-items: center;
+}
+.bmrdefinition{
+    position: relative;
+    top: 70px;
+    left: 9%;
+    width: 80%;
+    text-align: justify;
+    text-indent: 80px;
+}
+.bmrcalcimg{
+    position: relative;
+    top: 8em;
+    right: 6em;
+    height: 23em;
+    float: right;
+    width: 30em;
+}
+.calculatebox{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 2em;
+    position: relative;
+    top: 5.5em;
+    height: 18%;
+    left: 140px;
+    width: 40%;
+    font-size: larger;
+}
+.calculatebox input{
+    text-align: center;
+}
+.bmrgender{
+    position: relative;
+    top: 60px;
+    left: 80px;
+}
+.bmrage{
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+.selectgender{
+    height: 3em;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 90px;
+}
+.bmrweight{
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+.bmrheight{
+    position: relative;
+    top: 115px;
+    left: 80px;
+}
+.bmrresult button{
+    position: relative;
+    left: 25em;
+    top: 140px;
+    height: 3em;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.bmrresult button:hover{
+    color: white;
+    background-color: black;
+}
+.bmrans{
+    position: relative;
+    top: 8em;
+    left: 14%;
+}
+input{
+    height: 3em;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.bmrintrohead{
+    position: relative;
+    top: 6em;
+    left: 100px;
+    font-size: 2em;
+}

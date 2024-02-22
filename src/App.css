@@ -1,0 +1,14 @@
+body{
+  overflow: scroll;
+  /* background: url(./Components/Front1.jpg); */
+  /* background-position: center; */
+  background-attachment: fixed;
+  background: ;
+  overflow-x: hidden;
+}
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;    
+  
+}

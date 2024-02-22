@@ -1,0 +1,141 @@
+.Fronthead{
+    position: fixed;
+    user-select: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.website-name{
+    font-size: 3em;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+}
+.frontsignin-button{
+    height: 50px;
+    width: 100px;
+    outline: none;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 6px;
+    border-color: white;
+    margin-right: 80px;
+    cursor: pointer;
+}
+.frontsignin-button:hover{
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: .5s;
+}
+.Frontimg1{
+    position: fixed;
+    background-attachment: fixed;
+    border: 1px solid #000000;
+    border-radius: 3%;
+    padding: 5px;
+    width: 150px;
+    background: no-repeat;
+    top: 4em;
+    left: 5em;
+    height: 65em;
+    width: 88em;
+    z-index: -10;
+    opacity: 70%;   
+}
+.pngimg1{
+    float: right;
+    padding-top: 6%;
+    padding-right: 4%;
+    z-index: -10;
+}
+.FrontContents{
+    position: static;
+    color: rgb(0, 0, 0);
+    background-attachment: fixed;
+    padding-left: 12%;
+    padding-right: 13%;
+    padding-top: 10%;
+}
+.line{
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+    border: none;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+.Fintro{
+    font-size: 3em;
+    font-weight: bold;
+    padding-bottom: 3%;
+}
+.Fbody{
+    font-size: 20px;
+    padding-left: 5%;
+}
+.content{
+    /* background: rgba(0, 0, 0, 0.576); */
+}
+.content .Fpoint1{
+    padding-left: 10%;
+    padding-top: 2%;
+    width: 100%;
+}
+.content .Fconclusion{
+    text-align: center;
+    right: 50px;
+    padding-top: 3%;
+}
+.Frontabout{
+    position: relative;
+    left: 30px;
+    margin-left: 13em;
+    font-size: 2.5em;
+    padding-top: 15px;
+    z-index: 0;
+}
+.FrontQuestion{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.aboutexercise1{
+    padding-top: 25px;
+    text-indent: 80px;
+    text-align: justify;
+}
+.aboutexercise2{
+    padding-top: 25px;
+    text-indent: 80px;
+    text-align: justify;
+}
+.getstartedbutton{
+    margin-left: 40%;
+    margin-top: 5%;
+    height: 6em;
+    cursor: pointer;
+    width: 19em;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 14px;
+    margin-bottom: 4.5em;
+}
+.getstartedbutton:hover{
+    color:black;
+    background-color: white;
+    transition: .5s;
+    border-color: black;
+}
+.Fitnessimg2{
+    position: relative;
+    float: left;
+    left: -20%;
+    margin-right: -20em;
+    margin-bottom: -8em;
+    z-index: -10;
+    filter: drop-shadow(16px 16px 20px rgb(0, 0, 0));
+}

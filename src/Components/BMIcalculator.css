@@ -1,0 +1,165 @@
+.BmiContainer{    
+    position: relative;
+    top: 10em;
+    left: 10%;
+    color: white;
+    border: 2px solid black;
+    background: rgb(0, 0, 0);
+    height: 145em;
+    width: 78em;
+    border-radius: 60px;
+    margin-bottom: 12em;
+}
+.bmicalculatorname{
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.BMIline{
+    position: relative;
+    left:6%;
+    top: 30px;
+    border-color: rgb(255, 255, 255);
+    width: 68em;
+    align-items: center;
+}
+.Bmigraphimg{
+    position: relative;
+    top: 8em;
+    right: 6em;
+    height: 23em;
+    float: right;
+    width: 30em;
+}
+.bmiintro{
+    position: relative;
+    top: 70px;
+    left: 9%;
+    width: 80%;
+    text-align: justify;
+    text-indent: 80px;
+}
+.bmicalc{
+    border: 2px solid rgb(255, 255, 255);
+    width: 40%;
+    border-radius: 1em;
+    position: relative;
+    left: 140px;
+    top: 7em;
+    height: 18%;
+    font-size: larger;
+}
+.calculatename{
+    position: relative;
+    top: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.Agelabel{
+    position: relative;
+    left: 80px;
+    top: 50px;
+}
+.genderlabel{
+    position: relative;
+    top: 75px;
+    left: 80px;
+}
+.weightlabel{
+    position: relative;
+    left: -140px;
+    top: 140px;
+}
+.bmicalc input{
+    position: relative;
+    text-align: center;
+}
+.weightinput{
+    position: relative;
+    top: -40px;
+    left: 350px;
+}
+.Heightlabel{
+    position: relative;
+    left: 80px;
+    top: 130px;
+}
+.BMIbutt{
+    position: relative;
+    left: 25em;
+    top: 140px;
+    height: 3em;
+    width: 30%;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.BMIbutt:hover{
+    color: white;
+    background-color: black;
+}
+.Bmiresult{
+    position: relative;
+    top: 15em;
+    left: -40%;
+    font-size: x-small;
+}
+.genderselection{
+    height: 3em;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 90px;
+}
+.bmiintropara{
+    position: relative;
+    top: 6em;
+    left: 100px;
+    font-size: 2em;
+}
+.Bmiintpara{
+    position: relative;
+    top: 13em;
+    left: 100px;
+    width: 80%;
+    text-align: justify;
+    text-indent: 80px;
+}
+.tablepara{
+    position: relative;
+    top: 16em;
+    left: 100px;
+    width: 80%;
+    text-align: justify;
+    text-indent: 80px;
+}
+.table{
+    position: relative;
+    top: 19em;
+    left: 30%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+table th,td{
+    border: 2px solid rgb(0, 0, 0);
+    height: 40px;
+    color: rgb(0, 0, 0);
+    width: 15em;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.Lastpara{
+    position: relative;
+    top: 21em;
+    left: 100px;
+    text-align: justify;
+    text-indent: 80px;
+    width: 80%;
+}
+.limitationhead{
+    position: relative;
+    top: 7em;
+    left: 390px;
+}

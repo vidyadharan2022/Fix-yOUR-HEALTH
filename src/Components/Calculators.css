@@ -1,0 +1,166 @@
+.button-container{
+    position: relative;
+    left: 17em;
+    top: 10em; 
+    color: white;
+    background: rgb(0, 0, 0);
+    border: 2px solid black;
+    border-radius: 60px;
+    width: 64em;
+    display: grid;
+    bottom: 10%;
+    margin-bottom: 14em;
+}
+.bmiimage{
+    position: relative;
+    height: 20em;
+    width: 20em;
+    border-radius: 5%;
+    top: 70px;
+    left: 70px;
+}
+.bmipara{
+    position: relative;
+    top: -40%;
+    left: 450px;
+    width: 30em;
+}
+.bmiformula{
+    font-weight: 600;
+    font-size: 2em;
+    position: relative;
+    top: -44%;
+    left: 450px;
+    width: fit-content;
+}
+.button-1{
+    position: relative;
+    top: -11em;
+    left: 50%;
+    height: 4em;
+    width: 200px;
+    font-size: 1em;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4em;
+    cursor: pointer;
+    transition: .5s;
+}
+.button-1:hover{
+    background-color: black;
+    color: white;
+}
+.bmrimg{
+    position: relative;
+    height: 20em;
+    width: 20em;
+    border-radius: 5%;
+    float: right;
+    top: -50px;
+    right: 70px;
+}
+.bmrformula{
+    font-weight: 600;
+    font-size: 2em;
+    position: relative;
+    left: 80px;
+    width: fit-content;
+}
+.bmrpara{
+    position: relative;
+    top: 5%;
+    left: 80px;
+    width: 30em;
+}
+.button-2{
+    position: relative;
+    top: 4em;
+    left: 30%;
+    height: 4em;
+    width: 200px;
+    font-size: 1em;
+    border: 2px solid white;
+    border-radius: 4em;
+    cursor: pointer;
+    transition: .5s;
+}
+.button-2:hover{
+    background-color: black;
+    color: white;
+}
+.fatimg{
+    position: relative;
+    height: 20em;
+    width: 20em;
+    border-radius: 5%;
+    top: 70px;
+    left: 70px;
+    background-color: white;
+}
+.fatformula{
+    font-weight: 600;
+    font-size: 2em;
+    position: relative;
+    top: -45%;
+    left: 450px;
+    width: fit-content;
+}
+.fatpara{
+    position: relative;
+    top: -42%;
+    left: 450px;
+    width: 30em;
+}
+.button-3{
+    position: relative;
+    top: -12em;
+    left: 50%;
+    height: 4em;
+    width: 200px;
+    font-size: 1em;
+    border: 2px solid white;
+    border-radius: 4em;
+    cursor: pointer;
+    transition: .5s;
+}
+.button-3:hover{
+    background-color: black;
+    color: white;
+}
+.ibwimg{
+    position: relative;
+    height: 20em;
+    width: 20em;
+    border-radius: 5%;
+    float: right;
+    top: -50px;
+    right: 70px;
+}
+.ibwformula{
+    font-weight: 600;
+    font-size: 2em;
+    position: relative;
+    top: -6%;
+    left: 80px;
+    width: fit-content;
+}
+.ibwpara{
+    position: relative;
+    left: 80px;
+    width: 30em;
+}
+.button-4{
+    position: relative;
+    top: 2em;
+    left: 30%;
+    height: 4em;
+    width: 200px;
+    font-size: 1em;
+    border: 2px solid white;
+    border-radius: 4em;
+    cursor: pointer;
+    transition: .5s;
+}
+.button-4:hover{
+    background-color: black;
+    color: white;
+}

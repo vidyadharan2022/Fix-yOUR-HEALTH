@@ -1,0 +1,230 @@
+.Exercisenav{
+    position: relative;
+    display: flex;
+    top: 7em;
+    left: 4%;
+    border: 2px solid black;
+    border-radius: 5em;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-size: 20px;
+    align-items: center;
+    height: 80px;
+    width: 91%;
+}
+.ExerButtons button{
+    box-shadow: 4px 5px 5px 2px rgb(0, 0, 0);
+}
+.exername{
+    position: relative;
+    left: 40px;
+}
+.Searchbutt{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255);
+}
+.searches{
+    position: relative;
+    left: 38%;
+    z-index: 5;
+}
+.Searchinput{
+    position: relative;
+    height: 40px;
+    width: 230px;
+    text-align: center;
+}
+
+.Searchbutt:hover{
+    background-color: black;
+    color: white;
+}
+.ExerButtons{
+    position: relative;
+    border: 2px solid black;
+    top: 12em;
+    width: 85%;
+    height: 80em;
+    left: 7em;
+    background-color: rgba(192, 182, 182, 0.624);
+    border-radius: 3em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.chestbutt{
+    position: relative;
+    top: 70px;
+    left: 100px;
+    border-radius: 20px;
+    background-image: url('./Chestimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.chestbutt:hover{
+    opacity: 80%;
+}
+.bicepsbutt{
+    position: relative;
+    top: 70px;
+    left: 70px;
+    border-radius: 20px;
+    background-image: url('./Bicepsimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.bicepsbutt:hover{
+    opacity: 80%;
+}
+.tricepsbutt{
+    position: relative;
+    top: 70px;
+    right: -30px;
+    border-radius: 20px;
+    background-image: url('./Tricepsimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.tricepsbutt:hover{
+    opacity: 80%;
+}
+.backbutt{
+    position: relative;
+    top: 40px;
+    left: 100px;
+    border-radius: 20px;
+    background-image: url('./Pullupimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.backbutt:hover{
+    opacity: 80%;
+}
+.shoulderbutt{
+    position: relative;
+    top: 40px;
+    left: 70px;
+    border-radius: 20px;
+    background-image: url('./shoulderimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.shoulderbutt:hover{
+    opacity: 80%;
+}
+.legsbutt{
+    position: relative;
+    top: 40px;
+    right: -30px;
+    border-radius: 20px;
+    background-image: url('./legsimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.legsbutt:hover{
+    opacity: 80%;
+}
+.abdominalbutt{
+    position: relative;
+    top: 10px;
+    left: 100px;
+    border-radius: 20px;
+    background-image: url('./Crunchimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.abdominalbutt:hover{
+    opacity: 80%;
+}
+.combinedbutt{
+    position: relative;
+    top: 10px;
+    left: 70px;
+    border-radius: 20px;
+    background-image: url('./combine.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.combinedbutt:hover{
+    opacity: 80%;
+}
+.cardiobutt{
+    position: relative;
+    top: 10px;
+    right: -30px;
+    border-radius: 20px;
+    background-image: url('./cardioimg.jpg');
+    background-size:cover;
+    background-position: center;
+    text-shadow: 2px solid black;
+    color: rgb(255, 255, 255);
+    font-size: 4em;
+    cursor: pointer;
+    height: 5em;
+    width: 5em;
+    transition: .5s;
+}
+.cardiobutt:hover{
+    opacity: 80%;
+}

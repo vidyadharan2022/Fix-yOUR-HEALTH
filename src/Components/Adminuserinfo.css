@@ -1,0 +1,24 @@
+.Listname{
+    position: relative;
+    top: 10em;
+    left: 10em;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.148);
+    width: 77em;
+    border-radius: 6em;
+}
+h2{
+    font-size: 3em;
+    position: relative;
+    left: 11em;
+}
+.tableuser{
+    position: relative;
+    left: 7em;
+    top: 2em;
+    width: 62em;
+    border-collapse: collapse;
+}
+.tableuser tr{
+    height: 60px;
+}

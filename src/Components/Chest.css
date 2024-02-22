@@ -1,0 +1,52 @@
+.chestexer{
+    position: relative;
+    border: 2px solid rgb(0, 0, 0);
+    top: 12em;
+    width: 85%;
+    height: 80em;
+    background: transparent;
+    left: 7em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.Exerciselist{
+    position: relative;
+    margin-bottom: 12em;
+}
+.listofcustomers table{
+    position: relative;
+    top: 9em;
+    left: 10em;
+    width: 80%;
+    border-collapse: collapse;
+}
+.listofcustomers table th{
+    border: none;
+}
+.listofcustomers table td{
+    border: 2px solid black;
+}
+.listofcustomers table .pictureth{
+    width: 10%;
+    align-items: center;
+}
+.listofcustomers table .nameth{
+    width: 22%;
+    align-items: center;
+}
+.listofcustomers a{
+    color: blue;
+    cursor: pointer;
+    text-decoration: none;
+    align-items: center;
+}
+.listofcustomers a:hover{
+    color: red;
+}
+.listofcustomers img{
+    border-radius: 20px;
+    height: 80px;
+    align-items: center;
+}

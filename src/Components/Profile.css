@@ -1,0 +1,61 @@
+.Profilebox{
+    position: relative;
+    border: 2px solid black;
+    top: 10em;
+    left: 30%;
+    height: 500px;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.875);
+    border-radius: 30px;
+}
+.profilename{
+    position: relative;
+    left: 42%;
+    margin-top: 30px;
+    font-size: xx-large;
+}
+.pline{
+    position: relative;
+    width: 80%;
+    border-color: black;
+    top: 10px;
+    left: 10%;
+}
+.pdownprofile{
+    margin-top: 60px;
+    position: relative;
+    left: 17%;
+}
+.pname{
+    margin-top: 20px;
+}
+.profilechangepassinput{
+    margin-top: 20px;
+    width: 15em;
+    margin-left: 5px;
+    border-radius: 6px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.savebutt{
+    position: relative;
+    top: 5em;
+    left: 300px;
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 6px;
+    background: black;
+    color: white;
+    border-color: white;
+}
+.savebutt:hover{
+    color:black;
+    background-color: white;
+    transition: .5s;
+    border-color: black;
+}
+.workoutimg2{
+    position: relative;
+    z-index: -1;
+    background: transparent;
+}

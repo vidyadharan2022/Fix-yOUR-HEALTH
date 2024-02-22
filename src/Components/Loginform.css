@@ -1,0 +1,93 @@
+.loginforum{
+    padding:  14% 33%;
+    color: rgb(255, 255, 255);  
+}
+.Signincontent{
+    color: rgb(255, 255, 255);
+}
+.signinname{
+    position: relative;
+    left: 1px;
+    font-size: 2em;
+    margin-top: 20px;
+}
+.Signincontent{
+    border: 2px solid rgb(0, 0, 0);
+    height: 21em;
+    width: 30em;
+    border-radius: 13px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+}
+.emailid{
+    margin-top: 2em;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-left: 3px;
+}
+.emailinput{
+    width: 15em;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-color: white;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.password{
+    margin-top: 6px;
+}
+.passwordinput{
+    width: 15em;
+    margin-left: 5px;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.signinbutton{
+    margin-top: 30px;
+    /* margin-left: 18em; */
+    height: 40px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 6px;
+    background: black;
+    color: white;
+    outline: none;
+    border-color: white;
+}
+.signinbutton:hover{
+    color:black;
+    background-color: white;
+    transition: .5s;
+    border-color: black;
+}
+.Registerer{
+    position: relative;
+
+}
+.Registerbutton{
+    position: relative;
+    top: -8px;
+    margin-left: 1em;
+    height: 30px;
+    width: 70px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 6px;
+    background: black;
+    color: white;
+    border-color: white;
+}
+.Registerbutton:hover{
+    color:black;
+    background-color: white;
+    transition: .5s;
+    border-color: black;
+}
+.adminlogin{
+    position: relative;
+}

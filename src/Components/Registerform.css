@@ -1,0 +1,97 @@
+.Registerform{
+    position: relative;
+    top: 9em;
+    left: 30%;
+    /* background: rgba(0, 0, 0, 0.576); */
+    color: white;
+    margin-bottom: 0px
+}
+.Registrationcontents{
+    border: 2px solid rgb(0, 0, 0);
+    height: 40em;
+    width: 45em;
+    border-radius: 13px;
+    background: black;
+    /* text-align: center; */
+}
+.Registerid{
+    text-align: center;
+    margin-top: 20px;
+}
+.Registercontents{
+    margin-left: 120px;
+    margin-top: 2em;
+
+}
+.RegNameinput{
+    margin-left: 9em;
+    width: 20em;
+    background-color: white;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.Registercontents input{
+    margin-bottom: 3em ;
+}
+.Regphnoinput{
+    margin-left: 3.4em;
+    width: 20em;
+    background: white;
+    border: none;outline: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.Regemailinput{
+    margin-left: 7.7em;
+    width: 20em;
+    background: white;
+    border: none;outline: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.RegDOBinput{
+    margin-left: 5.2em;
+    width: 20em;
+    background: white;
+    border: none;
+    /* color-scheme: dark; */
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.Regpassinput{
+    margin-left: 6.8em;
+    width: 20em;
+    background: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.RegConfirminput{
+    margin-left: 1.8em;
+    width: 20em;
+    background: white;
+    border: none;
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+}
+.RegisterButton{
+    float: right;
+    margin-right: 40px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 80px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 6px;
+    background: black;
+    color: white;
+    border-color: white;
+}
+.RegisterButton:hover{
+    color:black;
+    background-color: white;
+    transition: .5s;
+    border-color: black;
+}

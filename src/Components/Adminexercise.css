@@ -1,0 +1,43 @@
+.exernametop{
+    position: relative;
+    top: 10em;
+    left: 9em;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.148);
+    width: 77em;
+    border-radius: 6em;
+}
+h2{
+    font-size: 3em;
+    position: relative;
+    left: 11em;
+}
+.tablexer{
+    position: relative;
+    left: 7em;
+    top: 6em;
+    width: 62em;
+    border-collapse: collapse;
+}
+.tablexer tr{
+    height: 60px;
+}
+.addbuttons{
+    position: relative;
+    top: 3em;
+    left: 34em;
+}
+.addbuttons button{
+    height: 4em;
+    width: 8em;
+    border: none;
+    outline: none;
+    border-radius: 6em;
+    transition: .5s;
+    cursor: pointer;
+    font-size: .9em;
+}
+.addbuttons button:hover{
+    background-color: black;
+    color: white;
+}
